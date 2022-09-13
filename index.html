@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HI BRO ;)</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="items">
+      <h1>Hello BRO!</h1>
+      <div class="buttons">
+        <button
+          class="buttons__item"
+          type="button"
+          id="login"
+          onclick="login()"
+        >
+          LogIn
+        </button>
+        <button
+          class="buttons__item"
+          type="button"
+          id="registration"
+          onclick="registration()"
+        >
+          SignUp
+        </button>
+        <button class="buttons__item" type="button" id="edit" onclick="edit()">
+          Edit
+        </button>
+        <button
+          class="buttons__item"
+          type="button"
+          id="logout"
+          onclick="logOut()"
+        >
+          LogOut
+        </button>
+        <button
+          class="buttons__item"
+          type="button"
+          id="delete_account"
+          onclick="deleteUser()"
+        >
+          Delete Account
+        </button>
+      </div>
+    </div>
+    <div class="user__info">
+      <div id="user__info_name"></div>
+      <div id="user__info_age"></div>
+      <div id="user__info_password"></div>
+      <div id="user__info_status"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
